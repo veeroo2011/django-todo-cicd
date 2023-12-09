@@ -2,7 +2,7 @@ FROM python:3
 
 WORKDIR /data
 
-RUN pip3 install django==3.2
+RUN pip install django==3.2
 
 COPY . .
 
